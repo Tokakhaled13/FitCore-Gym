@@ -1,0 +1,525 @@
+
+
+
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f8f9fa;
+    padding: 70px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-text,
+.hero-image {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.main-button,
+.second-button {
+    display: inline-block;
+    padding: 15px 22px;
+    margin: 5px 5px 5px 0;
+    border-radius: 8px;
+}
+
+.main-button {
+    background-color: black;
+    color: white;
+}
+
+.second-button {
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Section Heading */
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Why Choose Us */
+#why-choose-us {
+    padding: 70px 0;
+    background-color: white;
+}
+
+.features {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feature-card {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    margin: 1%;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.blue-card {
+    background-color: #eaf2ff;
+}
+
+.green-card {
+    background-color: #e8f8ef;
+}
+
+.purple-card {
+    background-color: #f3edff;
+}
+
+.feature-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 25px;
+    padding-top: 18px;
+    border-radius: 12px;
+    background-color: #2563eb;
+    text-align: center;
+}
+
+.green-card .feature-icon {
+    background-color: #059669;
+}
+
+.purple-card .feature-icon {
+    background-color: #7c3aed;
+}
+
+.square-icon {
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.circle-icon {
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.feature-card h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* More Than Just a Gym */
+.more-section {
+    text-align: center;
+}
+
+.more-image,
+.more-content {
+    display: inline-block;
+    width: 46%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.more-image {
+    margin-right: 3%;
+}
+
+.more-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.more-content h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.service {
+    border-left: 4px solid black;
+    padding-left: 20px;
+    margin-bottom: 22px;
+}
+
+.service h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Testimonials */
+#social-proof {
+    background-color: #f8f9fa;
+    padding: 70px 0;
+}
+
+.reviews {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin: 1%;
+    padding: 25px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.review-blue {
+    background-color: #eff6ff;
+}
+
+.review-green {
+    background-color: #ecfdf5;
+}
+
+.review-purple {
+    background-color: #f5f3ff;
+}
+
+.member-info {
+    margin-bottom: 20px;
+}
+
+.member-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.member-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.member-text h4 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.member-text p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.review-card > p {
+    color: #555;
+    font-size: 15px;
+}
+
+/* Statistics */
+.statistics {
+    background-color: #f1f5f9;
+    padding: 40px 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.stat-item {
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}
+
+.stat-item h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    color: #666;
+}
+
+/* Membership Form */
+#membership-form {
+    padding: 70px 0;
+    background-color: white;
+}
+
+.form-container {
+    max-width: 900px;
+}
+
+.form-box {
+    background-color: #f8f9fa;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.form-group textarea {
+    height: 110px;
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: 1px solid black;
+}
+
+.name-fields {
+    text-align: center;
+}
+
+.name-fields .form-group {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: left;
+}
+
+form button {
+    width: 100%;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+.terms {
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Footer */
+#footer {
+    background-color: #111827;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-about {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.footer-links,
+.footer-contact {
+    width: 23%;
+}
+
+#footer h3,
+#footer h4 {
+    color: white;
+}
+
+#footer h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#footer h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#footer p,
+#footer li,
+#footer a {
+    color: #aaa;
+    line-height: 1.8;
+}
+
+#footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+#footer li {
+    margin-bottom: 8px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+.contact-item h5 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+    .hero-text,
+    .hero-image,
+    .more-image,
+    .more-content {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .feature-card,
+    .review-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .stat-item {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .name-fields .form-group {
+        width: 100%;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
